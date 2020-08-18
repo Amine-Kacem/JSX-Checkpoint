@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "./style.css";
-
+import go from "./go.jpg";
 function App() {
   return (
     <div className="App">
@@ -13,7 +13,7 @@ function App() {
       >
         <h1 className="title"> Welcome to GMC </h1>
 
-        <img src="/go.jpg" alt="go.jpg" />
+        <img src={go} />
 
         <img src="/public.png" />
       </div>
